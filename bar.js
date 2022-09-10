@@ -5,7 +5,7 @@ const data = {
   datasets: [{
     label: 'My First Dataset',
     fill: true,
-    data: [65, 59, 80, 81, 56, 55, 40, 20, 14, 51],
+    data: [10, 50, 70, 15, 20, 34,56, 7, 22, 55, 25, 33],
     backgroundColor: [
       'rgba(255, 99, 132, 0.5)',
       'rgba(255, 159, 64, 0.5)',

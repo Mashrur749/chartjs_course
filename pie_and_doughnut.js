@@ -1,15 +1,15 @@
+// yearly sales in each department
+
 const ctx = document.querySelector("#myChart")
-
-
 const data = {
     labels: [
-      'Red',
-      'Blue',
-      'Yellow'
+      'Snacks',
+      'Cleaning Supplies',
+      'Office Supplies'
     ],
     datasets: [{
       label: 'My First Dataset',
-      data: [300, 50, 100],
+      data: [150, 50, 100],
       backgroundColor: [
         'rgb(255, 99, 132)',
         'rgb(54, 162, 235)',
