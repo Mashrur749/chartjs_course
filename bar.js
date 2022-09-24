@@ -21,7 +21,6 @@ const data = {
       borderColor: "rgba(54, 162, 235, 0.9)",
       borderWidth: 2,
       borderRadius: 10,
-      borderSkipped: false,
       // axis: 'y',
     },
   ],

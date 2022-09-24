@@ -27,7 +27,7 @@ const chips = {
 
 const detergent = {
   label: "Detergent",
-  data: [0, 0, 0, 0, 0, 55, 40, 4, 55, 81, 56, 32].map((e) => e * 3),
+  data: [0, 0, 0, 0, 0, 55, 40, 4, 55, 81, 56, 32],
   fill: false,
   borderColor: "rgb(75, 2, 192)",
   backgroundColor: "rgba(75, 2, 192, .5)",
@@ -37,7 +37,7 @@ const detergent = {
 
 const pen = {
   label: "Pen",
-  data: [65, 59, 80, 81, 56, 55, 40, 4, 55, 81, 56, 32].map((e) => e + 20),
+  data: [65, 59, 80, 81, 56, 55, 40, 4, 55, 81, 56, 32],
   fill: false,
   borderColor: "rgb(75, 150, 2)",
   fill: true,

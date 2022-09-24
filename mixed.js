@@ -24,13 +24,13 @@ const chips = {
   borderColor: "rgb(75, 192, 192)",
   backgroundColor: "rgba(75, 192, 192, .5)",
   fill: true,
-  tension: 0.1,
+  tension: 0.1,      
 };
 
 const detergent = {
   type: "line",
   label: "Detergent",
-  data: [0, 0, 0, 0, 0, 55, 40, 4, 55, 81, 56, 32].map((e) => e * 3),
+  data: [0, 0, 0, 0, 0, 55, 40, 4, 55, 81, 56, 32],
   fill: false,
   borderColor: "rgb(75, 2, 192)",
   backgroundColor: "rgba(75, 2, 192, .5)",
@@ -41,7 +41,7 @@ const detergent = {
 const pen = {
   type: "line",
   label: "Pen",
-  data: [65, 59, 80, 81, 56, 55, 40, 4, 55, 81, 56, 32].map((e) => e + 20),
+  data: [65, 59, 80, 81, 56, 55, 40, 4, 55, 81, 56, 32],
   fill: false,
   borderColor: "rgb(75, 150, 2)",
   fill: true,
@@ -61,9 +61,10 @@ const aggregatedDataset = {
   fill: false,
   fill: true,
   fillColor: "red",
-  tension: 0.1,
   backgroundColor: "rgba(54, 162, 235, 0.5)",
   borderColor: "rgba(54, 162, 235, 0.9)",
+  borderWidth: 2,
+  borderRadius: 10,
 };
 
 const datasets = [chips, detergent, pen, aggregatedDataset];
